@@ -4,13 +4,19 @@
     font-family:'Poppins', sans-serif;
     box-sizing: border-box;
 }
+body{
+    width: 100vw;
+    height: 100vh;
+  overflow-x: hidden;
+}
 
 .hero{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background: linear-gradient(45deg, #08001f, #30197d);
     color: #ffffff;
     position: relative;
+    min-width: 1200px;
 }
 
 .container{
@@ -20,6 +26,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    min-width: 940px;
    
 }
 
